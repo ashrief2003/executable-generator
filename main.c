@@ -123,7 +123,7 @@ void MakeFile(){
 }
 
 
-void assign_var(char text[]){
+void assign_var(const char text[]){
     for(int i = 0; i < 8; ++i){
         _data[i] = 0x00 + text[i];
     }
